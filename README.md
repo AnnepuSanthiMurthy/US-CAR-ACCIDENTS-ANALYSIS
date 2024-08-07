@@ -43,41 +43,69 @@ Ensure you have Python 3.7 or later installed. You can install the required pack
 pip install -r requirements.txt
 
 Data
+
 Raw Data: The raw data files should be placed in the data/raw directory.
+
 Processed Data: The scripts in the src directory will process the raw data and save the cleaned data in the data/processed directory.
+
 Notebooks
+
 The Jupyter notebooks in the notebooks directory guide you through the different stages of our analysis:
 
 01_data_exploration.ipynb: Initial exploration of the dataset.
+
 02_data_cleaning.ipynb: Data cleaning and preprocessing steps.
+
 03_data_analysis.ipynb: Detailed analysis to extract insights.
+
 04_visualizations.ipynb: Visualization of the analysis results.
+
 Scripts
+
 data_preprocessing.py: Script for cleaning and preprocessing the data.
+
 analysis.py: Script for conducting the analysis.
+
 visualization.py: Script for creating visualizations.
+
 Analysis and Insights
+
 Key Findings
+
 Accident Frequency: Analysis of accident frequency across different states and time periods.
+
 Severity Analysis: Identification of factors contributing to the severity of accidents.
+
 Weather Impact: Correlation between weather conditions and accident occurrences.
+
 Traffic Conditions: Impact of traffic conditions on accident rates.
+
 Visualizations
+
 We have created several visualizations to illustrate our findings, including:
 
 Heatmaps of accident locations.
+
 Time-series analysis of accident trends.
+
 Correlation matrices of contributing factors.
+
 Conclusion
+
 This analysis provides valuable insights into car accident trends and contributing factors across the USA. These findings can inform policy-making, improve traffic safety measures, and help in developing predictive models for accident prevention.
 
 Contributors
+
 Annepu Santhi Murthy
+
 Manikanta
+
 Sai krishna Varma
+
 DVJK Raju
 
 
 Acknowledgments
+
 We thank the original data providers and all contributors who have made this analysis possible.
 
